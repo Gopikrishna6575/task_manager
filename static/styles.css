@@ -1,0 +1,76 @@
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Task styles */
+
+.task {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.task .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.task .description {
+  margin-top: 5px;
+  color: #666;
+}
+
+.task .status {
+  margin-top: 10px;
+}
+
+.task .status img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* Status images */
+
+.task .status .completed {
+  content: url('completed.png');
+}
+
+.task .status .in-progress {
+  content: url('in-progress.png');
+}
+
+.task .status .pending {
+  content: url('pending.png');
+}
+
+/* Button styles */
+
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button.primary {
+  background-color: #007bff;
+}
+
+.button.primary:hover {
+  background-color: #0056b3;
+}
